@@ -1,0 +1,118 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline:0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    background: #f0f4f5;
+    overflow: hidden;
+}
+/* Style Navbar Menu  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0 5%;
+}
+/* Style Logo Hospital */
+nav img{
+    width:150px;
+}
+/* Style Navbar Menu Link */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+    font-weight: 600;
+}
+nav ul .home-active{
+    font-weight: 700;
+    color: #20bc7e;
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  /* Main Section Style */
+  main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+  }
+  main section{
+    width:50%;
+  }
+  .left-section{
+    margin-left:5%;
+    position: relative;
+  }
+  .topleft{
+    width:25px;
+  }
+  .left-section h1{
+    font-size: 60px;
+  }
+  .left-section p{
+    font-size: 15px;
+    color:#7c7c7c;
+    margin:20px 0px;
+  }
+  .bottomleft{
+    position: absolute;
+    right:25px;
+    width:25px;
+  }
+  .stethoscope{
+    position: absolute;
+    width:90%;
+    top:-60%;
+    right:-25%;
+    z-index:-1;
+  }
+  .mouse {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+  }
+  .left-section button{
+    color:white;
+    cursor: pointer;
+    background: #20bc7e;
+    padding:15px 30px;
+    border: none;
+    outline:none;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  /* Right Section Styling   */
+  .greenbox,.yellowbox{
+    position: absolute;
+    right:0;
+  }
+  .greenbox{
+    width:35%;
+    bottom:30px;
+  }
+  .yellowbox{
+    width:30%;
+    bottom:50px;
+  }
+  .doctor{
+    position: absolute;
+    right:0;
+    bottom:0;
+    height: 90%;
+  }

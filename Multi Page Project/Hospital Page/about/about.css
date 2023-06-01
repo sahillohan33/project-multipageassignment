@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline:0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    background: #f0f4f5;
+    overflow: hidden;
+}
+/* Style Navbar Menu  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0 5%;
+}
+/* Style Logo Hospital */
+nav img{
+    width:150px;
+}
+/* Style Navbar Menu Link */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+    font-weight: 600;
+}
+nav ul .home-active{
+    font-weight: 700;
+    color: #20bc7e;
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+/* About Page main section  */
+main{
+    height:80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 4%;
+}
+.hospitalinfo{
+    text-align: center;
+    width:42%;
+}
+.hospitalinfo h1{
+    color:#20bc7e;
+    margin-bottom: 20px;
+}
+.hospitalinfo p{
+    font-weight: 500;
+    font-size: 15px;
+}
+.hospital{
+    display:flex;
+    gap:30px;
+    align-items: center;
+    margin-top: 30px;
+}
+.hospitalcard{
+    width:200px;
+    height: 100px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hospitalcard span{
+    color:#20bc7e;
+    font-weight: 700;
+    font-size: 25px;
+}
+.hospitalcard p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
